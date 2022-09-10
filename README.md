@@ -4,7 +4,7 @@
 
 Analysis of gas station prices for 2021 in Italy, as a project for a competition hosted by University of Padova and Deloitte.
 
-This repository contains R code for the project, plus a description of the goals and the final analysis report. Data can be obtained from the Italian Government [here](https://www.mise.gov.it/index.php/it/open-data/elenco-dataset/carburanti-archivio-prezzi).
+This repository contains R code for the project, plus a description of the goals and the final analysis report. Data can be obtained from the Italian Government [here](https://www.mise.gov.it/index.php/it/open-data/elenco-dataset/carburanti-archivio-prezzi) (we used 2021 data).
 
 Folders:
 - **data_loading_and_preprocesing**: codes for data preparation;
