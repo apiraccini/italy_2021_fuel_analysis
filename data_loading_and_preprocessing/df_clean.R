@@ -9,12 +9,6 @@ set.seed(42)
 library(tidyverse)
 
 
-# utils ------------------------------------------------------------------------
-
-proj_dir <- "~/R_Jobs/StatAziende"
-if (normalizePath(getwd()) != normalizePath(proj_dir)) setwd(proj_dir)
-
-
 # data reading -----------------------------------------------------------------
 
 load("data/bigdf.RData")
