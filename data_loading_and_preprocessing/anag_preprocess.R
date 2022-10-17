@@ -12,10 +12,8 @@ library(tidyverse)
 
 # utils ------------------------------------------------------------------------
 
-proj_dir <- "~/R_Jobs/StatAziende"
+proj_dir <- "."
 data_dir <- paste0(proj_dir, "/data")
-
-if (normalizePath(getwd()) != normalizePath(proj_dir)) setwd(proj_dir)
 
 
 # data reading (by AP)----------------------------------------------------------
