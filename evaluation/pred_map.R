@@ -10,12 +10,6 @@ library(tidyverse)
 library(ggpubr)
 
 
-# utils -------------------------------------------------------------------
-
-proj_dir <- paste0(getwd(), "/StatAziende")
-setwd(proj_dir)
-
-
 # read data ---------------------------------------------------------------
 
 load("data/df.RData")
