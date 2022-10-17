@@ -6,12 +6,6 @@ rm(list=ls())
 library(tidyverse)
 
 
-# utils ------------------------------------------------------------------------
-
-proj_dir <- "~/R_Jobs/StatAziende"
-if (normalizePath(getwd()) != normalizePath(proj_dir)) setwd(proj_dir)
-
-
 # read data --------------------------------------------------------------------
 
 fuel_data <- read.csv("data/weekly_fuel_prices_all_data_from_2005_to_20220330.csv")
