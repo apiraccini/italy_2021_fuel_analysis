@@ -12,12 +12,6 @@ library(refund)
 library(tidyverse)
 
 
-# utils ------------------------------------------------------------------------
-
-proj_dir <- "~/R_Jobs/StatAziende"
-if (normalizePath(getwd()) != normalizePath(proj_dir)) setwd(proj_dir)
-
-
 # read data --------------------------------------------------------------------
 
 load("data/df.RData")
