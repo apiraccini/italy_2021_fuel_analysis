@@ -9,12 +9,6 @@ set.seed(42)
 library(dplyr)
 
 
-# utils ------------------------------------------------------------------------
-
-proj_dir <- "~/R_Jobs/StatAziende"
-if (normalizePath(getwd()) != normalizePath(proj_dir)) setwd(proj_dir)
-
-
 # data loading -----------------------------------------------------------------
 
 load("data/anag_df.RData")
